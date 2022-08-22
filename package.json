@@ -1,6 +1,6 @@
 {
-  "name": "create-vue-app",
-  "version": "0.0.0",
+  "name": "storybook-addon-fetch-mock-vue-example",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,35 +1,10 @@
-# create-vue-app
+# storybook-addon-fetch-mock: Vue example
 
-This template should help get you started developing with Vue 3 in Vite.
+An example Vue build with Storybook + [storybook-addon-fetch-mock](https://github.com/JohnAlbin/storybook-addon-fetch-mock) integration.
 
-## Recommended IDE Setup
+## Usage
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- `npm run dev`: uses the live `swapi.dev` data
+- `npm run storybook`: uses mocked data configured in `Luke.stories.js`
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Specific git commit that configures the addon: [30a68ddaaf2a87f92d462fa1f4aa48e17a591a46](https://github.com/JohnAlbin/storybook-addon-fetch-mock-vue-example/commit/30a68ddaaf2a87f92d462fa1f4aa48e17a591a46)

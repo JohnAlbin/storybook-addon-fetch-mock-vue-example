@@ -6,4 +6,8 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  fetchMock: {
+    debug: true,
+    catchAllURLs: ["https://swapi.dev"],
+  },
 };

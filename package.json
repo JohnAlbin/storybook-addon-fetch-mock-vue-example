@@ -30,6 +30,7 @@
     "eslint-plugin-storybook": "^0.6.4",
     "eslint-plugin-vue": "^9.3.0",
     "prettier": "^2.7.1",
+    "storybook-addon-fetch-mock": "^1.0.1",
     "vite": "^3.0.4",
     "vue-loader": "^16.8.3"
   }
